@@ -2,9 +2,27 @@
 <html>
 <head>
     <title>AI Chatbot Demo</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>My AI Chatbot Demo</h1>
-    <p>The chatbot will appear here once we add it.</p>
+
+    <h1>My AI Chatbot</h1>
+
+    <div id="chat-box">
+        <p>Bot: Hello! I'm your AI assistant.</p>
+    </div>
+
+    <input
+        type="text"
+        id="user-input"
+        placeholder="Type a message..."
+    >
+
+    <button onclick="sendMessage()">
+        Send
+    </button>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
