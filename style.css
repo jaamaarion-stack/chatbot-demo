@@ -1,3 +1,54 @@
 body {
     font-family: Arial, sans-serif;
+    padding: 30px;
+}
+
+#chat-widget {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    width: 350px;
+    height: 450px;
+
+    background: white;
+
+    border-radius: 12px;
+
+    box-shadow: 0 0 15px rgba(0,0,0,.2);
+
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+}
+
+#chat-header {
+    background: black;
+    color: white;
+
+    padding: 15px;
+
+    font-weight: bold;
+}
+
+#chat-box {
+    flex: 1;
+
+    padding: 10px;
+
+    overflow-y: auto;
+}
+
+#chat-input-area {
+    display: flex;
+}
+
+#user-input {
+    flex: 1;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
 }
