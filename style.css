@@ -3,9 +3,36 @@ body {
     padding: 30px;
 }
 
-#chat-widget {
+#chat-toggle {
+
     position: fixed;
+
     bottom: 20px;
+    right: 20px;
+
+    width: 60px;
+    height: 60px;
+
+    border: none;
+
+    border-radius: 50%;
+
+    background: black;
+
+    color: white;
+
+    font-size: 24px;
+
+    cursor: pointer;
+
+    box-shadow: 0 0 15px rgba(0,0,0,.3);
+}
+
+#chat-widget {
+
+    position: fixed;
+
+    bottom: 90px;
     right: 20px;
 
     width: 350px;
@@ -17,22 +44,35 @@ body {
 
     box-shadow: 0 0 15px rgba(0,0,0,.2);
 
-    display: flex;
+    display: none;
+
     flex-direction: column;
 
     overflow: hidden;
 }
 
 #chat-header {
+
     background: black;
+
     color: white;
 
     padding: 15px;
 
     font-weight: bold;
+
+    display: flex;
+
+    justify-content: space-between;
+}
+
+#close-chat {
+
+    cursor: pointer;
 }
 
 #chat-box {
+
     flex: 1;
 
     padding: 10px;
@@ -41,14 +81,18 @@ body {
 }
 
 #chat-input-area {
+
     display: flex;
 }
 
 #user-input {
+
     flex: 1;
+
     padding: 10px;
 }
 
 button {
+
     padding: 10px;
 }
