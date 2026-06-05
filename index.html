@@ -6,23 +6,33 @@
 </head>
 <body>
 
-    <h1>My AI Chatbot</h1>
+<h1>My Website</h1>
+<p>Welcome to my chatbot demo.</p>
 
-    <div id="chat-box">
-        <p>Bot: Hello! I'm your AI assistant.</p>
+<div id="chat-widget">
+
+    <div id="chat-header">
+        AI Assistant
     </div>
 
-    <input
-        type="text"
-        id="user-input"
-        placeholder="Type a message..."
-    >
+    <div id="chat-box">
+        <p><b>Bot:</b> Hello! How can I help?</p>
+    </div>
 
-    <button onclick="sendMessage()">
-        Send
-    </button>
+    <div id="chat-input-area">
+        <input
+            type="text"
+            id="user-input"
+            placeholder="Type a message..."
+        >
+        <button onclick="sendMessage()">
+            Send
+        </button>
+    </div>
 
-    <script src="script.js"></script>
+</div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
