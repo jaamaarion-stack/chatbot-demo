@@ -9,10 +9,15 @@
 <h1>My Website</h1>
 <p>Welcome to my chatbot demo.</p>
 
+<button id="chat-toggle">
+    💬
+</button>
+
 <div id="chat-widget">
 
     <div id="chat-header">
         AI Assistant
+        <span id="close-chat">✕</span>
     </div>
 
     <div id="chat-box">
@@ -25,6 +30,7 @@
             id="user-input"
             placeholder="Type a message..."
         >
+
         <button onclick="sendMessage()">
             Send
         </button>
